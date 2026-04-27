@@ -24,13 +24,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1500942119754122718}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &3269375816019375291
 MonoBehaviour:
@@ -44,8 +44,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35c56746df41dce49a4f38946897792d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dataList:
-  - {fileID: 11400000, guid: 7262ec5429f23694cb621ce11e311724, type: 2}
-  - {fileID: 11400000, guid: 87f2109e771149940aab5faffa74209e, type: 2}
-  choosenGirl: 0
-  choosenPic: 0
+  girls:
+  - {fileID: 11400000, guid: d5fbb894c2552b04798befc6f782599e, type: 2}
